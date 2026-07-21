@@ -79,6 +79,7 @@ a {
     padding: 35px 30px 10px 76px;
     font-size: 20px;
     color: var(--text);
+    pointer-events: none;
 }
 
 .column-row-icons a {
