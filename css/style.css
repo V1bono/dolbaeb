@@ -1,15 +1,88 @@
-#main-text {
+@import url('https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@v3.3.0/build/firacode-nerd-font.css');
+
+:root {
+    --bg: #222222;
+    --bg-card: #333;
+    --text: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.nf-icon {
+    font-family: 'FiraCode Nerd Font', monospace;
+    font-style: normal;
+    display: inline-block;
+}
+
+.main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#main-test-text {
-    color: white;
+ /*main*/
+
+.main-test-text {
+    font-family: 'FiraCode Nerd Font', monospace;
+    color: var(--text);
 }
 
-#main-test-images {
+.main-test-images {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 10px;
     gap: 20px
+}
+
+.main-test-images img {
+    width: min(500px, 100%);
+    height: auto;
+}
+
+
+
+/* bottom socials */
+.bottom-socials {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--bg-card);
+    border-radius: 1rem;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 20px 15px 20px 15px;
+  }
+
+.column-row-icons {
+    display: flex;
+    font-size: 50px;
+    gap: 30px;
+}
+
+.column-row-icons p {
+    position: absolute;
+    padding: 35px 30px 10px 76px;
+    font-size: 20px;
+    color: var(--text);
+}
+
+.column-row-icons a {
+    display: inline-flex;
+    padding-left: 5px;
+    width: 1em;
 }
