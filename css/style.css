@@ -1,7 +1,15 @@
-#main-test {
-    color: white;
+#main-text {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 300px;
+}
+
+#main-test-text {
+    color: white;
+}
+
+#main-test-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
 }
