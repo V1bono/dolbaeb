@@ -71,13 +71,13 @@ a {
 
 .column-row-icons {
     display: flex;
-    font-size: 50px;
+    font-size: 40px;
     gap: 30px;
 }
 
 .column-row-icons p {
     position: absolute;
-    padding: 35px 30px 10px 76px;
+    padding: 25px 25px 5px 60px;
     font-size: 20px;
     color: var(--text);
     pointer-events: none;
