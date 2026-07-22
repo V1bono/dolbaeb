@@ -7,6 +7,12 @@
     --icons: #f6f3f3;
 }
 
+.nf-icon {
+    font-family: 'FiraCode Nerd Font', monospace;
+    font-style: normal;
+    display: inline-block;
+}
+
 h1 {
     text-align: center;
 }
@@ -21,11 +27,8 @@ a {
     color: var(--icons);
 }
 
-.nf-icon {
-    font-family: 'FiraCode Nerd Font', monospace;
-    font-style: normal;
-    display: inline-block;
-}
+
+/*main*/
 
 .main-container {
     display: flex;
@@ -33,7 +36,6 @@ a {
     align-items: center;
 }
 
- /*main*/
 
 .main-test-text {
     font-family: 'FiraCode Nerd Font', monospace;
@@ -70,6 +72,7 @@ a {
   }
 
 .column-row-icons {
+    position: relative;
     display: flex;
     font-size: 40px;
     gap: 30px;
